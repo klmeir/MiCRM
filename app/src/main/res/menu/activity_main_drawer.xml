@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_nav1"
+            android:title="@string/drawer_nav1" />
+        <item
+            android:id="@+id/drawer_nav2"
+            android:title="@string/drawer_nav2" />
+        <item
+            android:id="@+id/drawer_nav3"
+            android:title="@string/drawer_nav3" />
+        <item
+            android:id="@+id/drawer_nav4"
+            android:title="@string/drawer_nav4" />
+        <item
+            android:id="@+id/drawer_nav5"
+            android:title="@string/drawer_nav5" />
+    </group>
+
+</menu>

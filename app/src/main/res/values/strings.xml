@@ -3,4 +3,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- NavigationDrawer -->
+    <string name="drawer_nav1">Home</string>
+    <string name="drawer_nav2">Personas</string>
+    <string name="drawer_nav3">Organización</string>
+    <string name="drawer_nav4">Negocio</string>
+    <string name="drawer_nav5">Actividades</string>
+
+    <!-- Home -->
+    <string name="home_msg">Mi CRM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
