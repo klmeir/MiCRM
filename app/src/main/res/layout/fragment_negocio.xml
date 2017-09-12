@@ -1,13 +1,66 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context="com.example.micrm.fragments.NegocioFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/txt_titulo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_titulo" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/txt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_descripcion" />
+
+    <EditText
+        android:id="@+id/txt_organizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_organizacion" />
+
+    <EditText
+        android:id="@+id/txt_persona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_persona" />
+
+    <EditText
+        android:id="@+id/txt_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_valor"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_fecha_cierre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_fecha_cierre"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txt_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/negocio_hint_estado" />
+
+    <Button
+        android:id="@+id/btn_negocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/negocio_btn_agregar" />
+
+</LinearLayout>
+

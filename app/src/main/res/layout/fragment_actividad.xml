@@ -1,13 +1,65 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context="com.example.micrm.fragments.ActividadFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/txt_descripcion"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_descripcion" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/txt_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_tipo" />
+
+    <EditText
+        android:id="@+id/txt_organizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_organizacion" />
+
+    <EditText
+        android:id="@+id/txt_persona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_persona" />
+
+    <EditText
+        android:id="@+id/txt_negocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_negocio" />
+
+    <EditText
+        android:id="@+id/txt_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_fecha"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txt_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/actividad_hint_hora"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btn_actividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad_btn_agregar" />
+
+</LinearLayout>

@@ -14,6 +14,43 @@
     <!-- Home -->
     <string name="home_msg">Mi CRM</string>
 
+    <!-- Persona -->
+    <string name="persona_hint_nombre">Nombre</string>
+    <string name="persona_hint_telefono">Teléfono</string>
+    <string name="persona_hint_email">Email</string>
+    <string name="persona_btn_agregar">Agregar Persona</string>
+    <string name="persona_msg_exitoso">Se agrego la Persona Correctamente</string>
+
+    <!-- Organización -->
+    <string name="organizacion_hint_nombre">Nombre</string>
+    <string name="organizacion_hint_direccion">Dirección</string>
+    <string name="organizacion_hint_telefono">Teléfono</string>
+    <string name="organizacion_btn_agregar">Agregar Organización</string>
+    <string name="organizacion_msg_exitoso">Se agrego la Organización Correctamente</string>
+
+    <!-- Negocio -->
+    <string name="negocio_hint_titulo">Título</string>
+    <string name="negocio_hint_descripcion">Descripción</string>
+    <string name="negocio_hint_organizacion">Organización</string>
+    <string name="negocio_hint_persona">Persona</string>
+    <string name="negocio_hint_valor">Valor</string>
+    <string name="negocio_hint_fecha_cierre">Fecha de Cierre</string>
+    <string name="negocio_hint_estado">Estado</string>
+    <string name="negocio_btn_agregar">Agregar Negocio</string>
+    <string name="negocio_msg_exitoso">Se agrego el Negocio Correctamente</string>
+
+    <!-- Actividad -->
+    <string name="actividad_hint_descripcion">Descripción</string>
+    <string name="actividad_hint_tipo">Tipo</string>
+    <string name="actividad_hint_organizacion">Organización</string>
+    <string name="actividad_hint_persona">Persona</string>
+    <string name="actividad_hint_negocio">Negocio</string>
+    <string name="actividad_hint_fecha">Fecha</string>
+    <string name="actividad_hint_hora">Hora</string>
+    <string name="actividad_btn_agregar">Agregar Actividad</string>
+    <string name="actividad_msg_exitoso">Se agrego la Actividad Correctamente</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_campo_requerido">Este campo es requerido</string>
 </resources>

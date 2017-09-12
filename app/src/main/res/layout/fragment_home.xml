@@ -9,6 +9,6 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical|center_horizontal"
         android:text="@string/home_msg"
-        android:textSize="26sp"/>
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </FrameLayout>
