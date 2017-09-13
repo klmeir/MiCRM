@@ -5,56 +5,102 @@
     android:orientation="vertical"
     tools:context="com.example.micrm.fragments.NegocioFragment">
 
-    <EditText
-        android:id="@+id/txt_titulo"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_titulo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_titulo" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/txt_descripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_descripcion" />
+        <EditText
+            android:id="@+id/txt_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_titulo" />
 
-    <EditText
-        android:id="@+id/txt_organizacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_organizacion" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/txt_persona"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_descripcion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_persona" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/txt_valor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_valor"
-        android:inputType="number" />
+        <EditText
+            android:id="@+id/txt_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_descripcion" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/txt_fecha_cierre"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_organizacion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_fecha_cierre"
-        android:inputType="date" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/txt_estado"
+        <EditText
+            android:id="@+id/txt_organizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_organizacion" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_persona"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/negocio_hint_estado" />
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_persona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_persona" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_valor"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_fecha_cierre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_fecha_cierre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/negocio_hint_fecha_cierre"
+            android:inputType="date"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/negocio_hint_estado" />
+    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/btn_negocio"

@@ -8,13 +8,17 @@ public class Negocio {
 
     private String titulo;
     private String descripcion;
-    private String organizacion;
-    private String persona;
-    private String valor;
+    private Organizacion organizacion;
+    private Persona persona;
+    private double valor;
     private String fecha_cierre;
     private String estado;
 
-    public Negocio(String titulo, String descripcion, String organizacion, String persona, String valor, String fecha_cierre, String estado) {
+    public Negocio(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public Negocio(String titulo, String descripcion, Organizacion organizacion, Persona persona, double valor, String fecha_cierre, String estado) {
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.organizacion = organizacion;
@@ -40,27 +44,27 @@ public class Negocio {
         this.descripcion = descripcion;
     }
 
-    public String getOrganizacion() {
+    public Organizacion getOrganizacion() {
         return organizacion;
     }
 
-    public void setOrganizacion(String organizacion) {
+    public void setOrganizacion(Organizacion organizacion) {
         this.organizacion = organizacion;
     }
 
-    public String getPersona() {
+    public Persona getPersona() {
         return persona;
     }
 
-    public void setPersona(String persona) {
+    public void setPersona(Persona persona) {
         this.persona = persona;
     }
 
-    public String getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(String valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 
@@ -85,12 +89,11 @@ public class Negocio {
         return "Negocio{" +
                 "titulo='" + titulo + '\'' +
                 ", descripcion='" + descripcion + '\'' +
-                ", organizacion='" + organizacion + '\'' +
-                ", persona='" + persona + '\'' +
-                ", valor='" + valor + '\'' +
+                ", organizacion=" + organizacion +
+                ", persona=" + persona +
+                ", valor=" + valor +
                 ", fecha_cierre='" + fecha_cierre + '\'' +
                 ", estado='" + estado + '\'' +
                 '}';
     }
-
 }

@@ -10,6 +10,10 @@ public class Organizacion {
     private String direccion;
     private String telefono;
 
+    public Organizacion(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Organizacion(String nombre, String direccion, String telefono) {
         this.nombre = nombre;
         this.direccion = direccion;
